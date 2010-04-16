@@ -12,5 +12,6 @@
     :license "GPLv3 + Classpath exception"
     :serial t
     :components ((:file "package")
-		 (:file "curry")))
+		 (:file "curry")
+		 (:file "compose")))
 		 

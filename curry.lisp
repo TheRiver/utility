@@ -11,5 +11,7 @@
   call CURRY's original FUNCTION argument, followed by CURRY's
   remaining ARGUMENTS, and then the N arguments."
   (declare (optimize (speed 3)))
-  (lambda (&rest args)
-    (apply function (append arguments args))))
+  #'(lambda (&rest args)
+      (apply function (append arguments args))))
+
+;;;-----------------------------------------------------------------------
