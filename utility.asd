@@ -13,5 +13,6 @@
     :serial t
     :components ((:file "package")
 		 (:file "curry")
-		 (:file "compose")))
+		 (:file "compose")
+		 (:file "macro-definition.lisp")))
 		 
