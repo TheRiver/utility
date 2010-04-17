@@ -14,5 +14,5 @@
     :components ((:file "package")
 		 (:file "curry")
 		 (:file "compose")
-		 (:file "macro-definition.lisp")))
+		 (:file "macro-definition")))
 		 
