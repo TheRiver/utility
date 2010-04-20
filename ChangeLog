@@ -1,0 +1,4 @@
+2010-04-20  Rudy Neeser  <rudy.neeser@gmail.com>
+
+	* curry.lisp (curret-rest): Added another currying method
+
