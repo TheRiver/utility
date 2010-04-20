@@ -24,4 +24,13 @@
   #'(lambda (1st-arg)
       (funcall function 1st-arg 2nd-arg)))
 
+(declaim (ftype (function (function &rest t) function) curry-rest))
+(defun curry-rest (function &rest rest-args)
+  "CURRY-REST accepts a list of arguments which will be applied to the
+  given function as its REST arguments. The returned partial function
+  will still allow its initial arguments to be given."
+  (declare (optimize (speed 3)))
+  #'(lambda (&rest arguments)
+      (apply function (append arguments rest-args))))
+
 ;;;-----------------------------------------------------------------------
