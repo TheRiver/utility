@@ -6,6 +6,8 @@
 	   #:curry-rest
 	   #:compose
 	   #:once-only
-	   #:with-gensyms)
+	   #:with-gensyms
+	   ;; Files
+	   #:temporary-filename)
   (:documentation "A package of various helper functions and macros."))
   
