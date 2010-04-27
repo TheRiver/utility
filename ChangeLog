@@ -1,5 +1,8 @@
 2010-04-27  Rudy Neeser  <rudy.neeser@gmail.com>
 
+	* lists.lisp (take,drop): Added take and drop, which allow for
+	selecting portions of lists.
+
 	* files.lisp (temporary-filename): Added a function to produce
 	names for temporary files.
 
