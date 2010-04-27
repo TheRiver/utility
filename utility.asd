@@ -15,5 +15,6 @@
 		 (:file "curry")
 		 (:file "compose")
 		 (:file "files")
+		 (:file "lists")
 		 (:file "macro-definition")))
 		 

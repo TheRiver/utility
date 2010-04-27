@@ -7,6 +7,8 @@
 	   #:compose
 	   #:once-only
 	   #:with-gensyms
+	   ;; Lists
+	   #:take
 	   ;; Files
 	   #:temporary-filename)
   (:documentation "A package of various helper functions and macros."))
