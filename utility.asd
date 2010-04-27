@@ -14,5 +14,6 @@
     :components ((:file "package")
 		 (:file "curry")
 		 (:file "compose")
+		 (:file "files")
 		 (:file "macro-definition")))
 		 
