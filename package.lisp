@@ -6,6 +6,11 @@
 	   #:curry-rest
 	   #:compose
 	   #:once-only
-	   #:with-gensyms)
+	   #:with-gensyms
+	   ;; Lists
+	   #:take
+	   #:drop
+	   ;; Files
+	   #:temporary-filename)
   (:documentation "A package of various helper functions and macros."))
   
