@@ -4,9 +4,11 @@
   (:export #:curry
 	   #:curry2
 	   #:curry-rest
-	   #:compose
 	   #:once-only
 	   #:with-gensyms
+	   ;; Compose
+	   #:compose
+	   #:compose-n
 	   ;; Lists
 	   #:take
 	   #:drop
