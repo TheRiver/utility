@@ -1,3 +1,8 @@
+2010-07-26  Rudy Neeser  <rudy.neeser@gmail.com>
+
+	* objects.lisp (with-stored-accessors): Added a macro to allow for
+	temporarily modifying an object's accessors.
+
 2010-04-29  Rudy Neeser  <rudy.neeser@gmail.com>
 
 	* compose.lisp (compose-n): Added a function that allows for n
