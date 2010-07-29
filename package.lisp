@@ -12,6 +12,8 @@
 	   ;; Lists
 	   #:take
 	   #:drop
+	   ;; Objects
+	   #:with-stored-accessors
 	   ;; Files
 	   #:temporary-filename)
   (:documentation "A package of various helper functions and macros."))

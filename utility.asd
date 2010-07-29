@@ -16,5 +16,6 @@
 		 (:file "compose")
 		 (:file "files")
 		 (:file "lists")
-		 (:file "macro-definition")))
+		 (:file "macro-definition")
+		 (:file "objects")))
 		 
