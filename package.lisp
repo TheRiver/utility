@@ -14,6 +14,11 @@
 	   #:drop
 	   ;; Objects
 	   #:with-stored-accessors
+	   ;; Environment
+	   #:get-environment-variable
+	   #:xdg-data-home
+	   #:xdg-config-home
+	   #:xdg-cache-home
 	   ;; Files
 	   #:temporary-filename)
   (:documentation "A package of various helper functions and macros."))
